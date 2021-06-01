@@ -47,7 +47,7 @@ class Linac(Mapping):
         corresponding Beamline type.
 
         :param str code: Code used to simulate the beamline. ASTRA: 'astra'
-            or 'a'; IMPACT-T: 'impactt' or 't'. Case Insensitive.
+            or 'a'; IMPACT-T: 'impactt' or 't'. Elegant: 'elegant', 'e'. Case Insensitive.
         """
         bl = create_beamline(code, *args, **kwargs)
 
